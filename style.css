@@ -46,6 +46,7 @@ h1 {
 span {
   background-color: rgb(250, 250, 250);
   border-radius: 5rem;
+  margin: auto;
   padding: 3rem 2rem;
   text-align: center;
   width: 80vw;
