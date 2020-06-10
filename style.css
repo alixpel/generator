@@ -3,6 +3,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.refresh-button {
+  margin:auto;
+  margin-bottom: 2rem;
+  width: 15vw;
+}
+
 .kw-group {
   align-items: flex-start;
   display: flex;
@@ -20,16 +26,18 @@ body {
 
 #container {
   background-color: gold;
-  margin:auto;
+  float: right;
+  margin: -20rem 7rem 0.1rem 0.1rem;
+  /* margin:auto; */
   max-width: 32vw;
   padding: 3rem;
 }
 
 h1 {
   background-color: gold;
-  font-weight: 300;
+  font-weight: 500;
   margin-top: 0rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
   text-align: center;
@@ -37,10 +45,32 @@ h1 {
 
 span {
   background-color: rgb(250, 250, 250);
-  border-radius: 7rem;
-  padding: 6rem 2rem;
+  border-radius: 5rem;
+  padding: 3rem 2rem;
   text-align: center;
   width: 80vw;
+}
+
+a {
+  background-color: gold;
+  border-radius: 5rem;
+  color: rgb(70, 70, 70);
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ff0000;
+  color: rgb(240, 240, 240);
+  transition: transform 450ms, background-color 3000ms 150ms, color 900ms;
+}
+
+a:not(:hover) {
+  transition: transform 450ms, background-color 3000ms 150ms, color 700ms;
 }
 
 #container img {
