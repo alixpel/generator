@@ -1,4 +1,5 @@
-fetch('https://cataas.com/cat')
+fetch('https://aws.random.cat/meow')
+// https://cataas.com/cat : chats de secours
 .then(function(body) { // body est la réponse de la requête effectuée
   return body.json(); // Evalue la réponse de l'objet
 })
