@@ -65,8 +65,7 @@ a {
 }
 
 a:hover {
-  background-color: #ff0000;
-  color: rgb(240, 240, 240);
+  background-color: #00ffff;
   transition: transform 450ms, background-color 3000ms 150ms, color 900ms;
 }
 
