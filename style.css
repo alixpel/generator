@@ -65,12 +65,16 @@ a {
 }
 
 a:hover {
-  background-color: #00ffff;
-  transition: transform 450ms, background-color 3000ms 150ms, color 900ms;
+  background-color: #d4d3d1;
+  transition: transform 450ms, background-color 300ms 150ms, color 900ms;
 }
 
 a:not(:hover) {
-  transition: transform 450ms, background-color 3000ms 150ms, color 700ms;
+  transition: transform 450ms, background-color 1000ms 150ms, color 700ms;
+}
+
+.kanye {
+  margin-left: 1rem;
 }
 
 #container img {
