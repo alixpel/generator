@@ -6,6 +6,7 @@ body {
 .refresh-button {
   margin:auto;
   margin-bottom: 2rem;
+  text-align: center;
   width: 15vw;
 }
 
