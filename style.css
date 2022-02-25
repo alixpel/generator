@@ -27,6 +27,7 @@ body {
 
 #container {
   background-color: gold;
+  border-radius: 3rem;
   float: right;
   margin: -20rem 7rem 0.1rem 0.1rem;
   /* margin:auto; */
@@ -79,7 +80,7 @@ a:not(:hover) {
 }
 
 #container img {
-  margin-top: 2rem;
+  
   width: 100%;
 }
 
